@@ -68,6 +68,7 @@ FW_VERSIONS = {
     ],
     (Ecu.transmission, 0x7e1, None): [
   b'\xf1\x006U3H0_C2\x00\x006U3D8051\x00\x00HAE0G16US0\x10\xc9\xc9F',
+  b'\xf1\x006U3H0_C2\x00\x006U3D8051\x00\x00HAE0G16US0\x00\x00\x00\x00',
     ],
   },
   CAR.HYUNDAI_IONIQ_PHEV_2019: {
