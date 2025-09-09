@@ -66,6 +66,9 @@ FW_VERSIONS = {
       b'\xf1\x00AEH MFC  AT USA LHD 1.00 1.00 95740-G2300 170703',
       b'\xf1\x00AEH MFC  AT USA LHD 1.00 1.00 95740-G2400 180222',
     ],
+    (Ecu.transmission, 0x7e1, None): [
+  b'\xf1\x006U3H0_C2\x00\x006U3D8051\x00\x00HAE0G16US0\x10\xc9\xc9F',
+    ],
   },
   CAR.HYUNDAI_IONIQ_PHEV_2019: {
     (Ecu.fwdRadar, 0x7d0, None): [
