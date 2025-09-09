@@ -53,6 +53,7 @@ FW_VERSIONS = {
     (Ecu.eps, 0x7d4, None): [
       b'\xf1\x00AE  MDPS C 1.00 1.03 56310/G2300 4AEHC103',
       b'\xf1\x00AE  MDPS C 1.00 1.03 56310G2300\x00 4AEHC103',
+      b'\xf1\x00AE  MDPS C 1.00 1.04 56310G2550\x00 4AEHC104', # From log
       b'\xf1\x00AE  MDPS C 1.00 1.05 56310/G2500 4AEHC105',
       b'\xf1\x00AE  MDPS C 1.00 1.05 56310/G2501 4AEHC105',
       b'\xf1\x00AE  MDPS C 1.00 1.07 56310/G2301 4AEHC107',
@@ -63,9 +64,20 @@ FW_VERSIONS = {
       b'\xf1\x00AEH MFC  AT EUR LHD 1.00 1.00 95740-G2400 180222',
       b'\xf1\x00AEH MFC  AT EUR LHD 1.00 1.00 95740-G7200 160418',
       b'\xf1\x00AEH MFC  AT EUR RHD 1.00 1.00 95740-G2400 180222',
+      b'\xf1\x00AEH MFC  AT EUR RHD 1.00 1.00 95740-G2200 161014',  # From log
       b'\xf1\x00AEH MFC  AT USA LHD 1.00 1.00 95740-G2300 170703',
       b'\xf1\x00AEH MFC  AT USA LHD 1.00 1.00 95740-G2400 180222',
     ],
+    (Ecu.hvac, 0x7b3, None): [
+    b"\xf1\x00AE    97250-G2770CONTROL ASS'Y-DATC  1.02AEDATC(-)15.07.01    ",  # From log
+  ],
+    (Ecu.cornerRadar, 0x7b7, None): [
+      b'\xf1\x00\xff\x00',  # From log
+      b'\xf1\x8b\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00',  # From log
+  ],
+    (Ecu.combinationMeter, 0x7c6, None): [
+      b'\xf1\x00504',  # From log
+      b'\xf1\x8b \x17\x04\x03',  # From log
     (Ecu.transmission, 0x7e1, None): [
   b'\xf1\x006U3H0_C2\x00\x006U3D8051\x00\x00HAE0G16US0\x10\xc9\xc9F',
   b'\xf1\x006U3H0_C2\x00\x006U3D8051\x00\x00HAE0G16US0\x00\x00\x00\x00',
