@@ -70,14 +70,15 @@ FW_VERSIONS = {
     ],
     (Ecu.hvac, 0x7b3, None): [
     b"\xf1\x00AE    97250-G2770CONTROL ASS'Y-DATC  1.02AEDATC(-)15.07.01    ",  # From log
-  ],
+    ],
     (Ecu.cornerRadar, 0x7b7, None): [
       b'\xf1\x00\xff\x00',  # From log
       b'\xf1\x8b\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00',  # From log
-  ],
+    ],
     (Ecu.combinationMeter, 0x7c6, None): [
       b'\xf1\x00504',  # From log
       b'\xf1\x8b \x17\x04\x03',  # From log
+    ],
     (Ecu.transmission, 0x7e1, None): [
   b'\xf1\x006U3H0_C2\x00\x006U3D8051\x00\x00HAE0G16US0\x10\xc9\xc9F',
   b'\xf1\x006U3H0_C2\x00\x006U3D8051\x00\x00HAE0G16US0\x00\x00\x00\x00',
